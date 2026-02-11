@@ -1,0 +1,46 @@
+# Data
+data/
+*.tar.gz
+*.7z
+
+# Test/scratch files
+test_loader.py
+outputs/configs/test_run.json
+outputs/results/test_run_history.json
+outputs/plots/test_run_curves.png
+
+# Outputs — large binary files
+outputs/checkpoints/*.pth
+
+# Keep plots and results for the portfolio (tracked in git)
+# outputs/plots/*.png   ← tracked
+# outputs/results/*.json ← tracked
+# outputs/results/*.txt  ← tracked
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
