@@ -458,6 +458,6 @@ If you use this codebase in your research or coursework, please cite:
 @misc{cifar10_classification,
   title={CIFAR-10 Image Classification: A Comparative Study of CNN Architectures},
   year={2026},
-  url={https://github.com/YOUR_USERNAME/cifar10-classification}
+  url={https://github.com/Tejo0507/cifar10-classification}
 }
 ```
